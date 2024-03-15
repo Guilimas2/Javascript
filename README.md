@@ -22,7 +22,7 @@ O atraso de 3 segundos em JavaScript permite que você adie a execução de uma 
 ![telainicial](print2.jpeg)
 
 
-* analise do código
+* analise do código [pop-up](/pop-up.html)
 
 ``<script>``: Indica o início de um bloco de script JavaScript.
 
