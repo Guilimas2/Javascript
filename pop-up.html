@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        var win = null;
+        function NovaJanela(pagina,nome,w,h,scroll){
+        LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+        TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+        settings = 'location=no,toolbar=no,directories=no,status=no,height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable';
+        win = window.open(pagina,nome,settings);
+}
+    </script>
+    <a href="https://github.com/Guilimas2/Javascript" onclick="NovaJanela(this.href,'nomeJanela','820','560','yes');return false">Abrir Pop-Up</a>
+</body>
+</html>
