@@ -20,7 +20,10 @@ O atraso de 3 segundos em JavaScript permite que você adie a execução de uma 
 
 # Abrir Pop-Up no Centro da Página 
 ![telainicial](print2.jpeg)
+
+
 * analise do código
+
 ``<script>``: Indica o início de um bloco de script JavaScript.
 
 ``var win = null;:`` Declara uma variável global win e a inicializa como null. Essa variável será usada para armazenar a referência à janela que será aberta.
