@@ -1,5 +1,5 @@
 # Análise de código javascript
-
+Este projeto consiste em, utilizando dois códigos disponíveis [aqui](https://terminalroot.com.br/2016/12/alguns-codigos-simples-de-javascript-2.html), analisá-los, implementá-los e testa-los. Após os testes, foi preciso identificar o que cada parte do javascript está fazendo e documentar tudo. Toda a documentação está disponível abaixo.
 
 
 ## Atrasando no tempo 
@@ -19,6 +19,7 @@ function alertMsg(){...}: Define a função alertMsg(). Esta função escreve "T
 O atraso de 3 segundos em JavaScript permite que você adie a execução de uma determinada tarefa por um período de tempo específico. Isso pode ser útil em diferentes cenários, como a exibição de uma mensagem temporizada, a realização de uma animação após um intervalo de tempo ou a implementação de um cronômetro.
 
 # Abrir Pop-Up no Centro da Página 
+![telainicial](print2.jpeg)
 * analise do código
 ``<script>``: Indica o início de um bloco de script JavaScript.
 
